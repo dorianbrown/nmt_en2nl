@@ -9,5 +9,5 @@ rm glove.6B.zip
 echo "Downloading Europarl Dutch-English parallel corpus"
 mkdir -p data/corpus
 wget http://www.statmt.org/europarl/v7/nl-en.tgz
-tar -xvf nl-en.tar -C data/corpus
+tar -xvzf nl-en.tgz -C data/corpus
 rm nl-en.tar
